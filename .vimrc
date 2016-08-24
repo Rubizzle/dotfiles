@@ -7,6 +7,7 @@ set noswapfile
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set autoindent
 
 hi Comment ctermfg=white
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
